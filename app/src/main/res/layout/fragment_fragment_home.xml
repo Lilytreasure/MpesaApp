@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/Topbar"
@@ -293,36 +292,36 @@
                     android:orientation="horizontal"
                     android:layoutMode="clipBounds"
                     android:paddingLeft="40dp">
-<!--                    -->
-<!--                    //its important to wrap  the image and the -->
-<!--                    text on the same entry -->
-<!--                    //The onClick event is executed either way by either -->
-<!--                    //clicking button or text-->
+                    <!--                    -->
+                    <!--                    //its important to wrap  the image and the -->
+                    <!--                    text on the same entry -->
+                    <!--                    //The onClick event is executed either way by either -->
+                    <!--                    //clicking button or text-->
                     <androidx.cardview.widget.CardView
                         android:id="@+id/cardMadaraka"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <ImageButton
+                        <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/ic_send"
-                            android:backgroundTint="@color/white">
+                            android:orientation="vertical">
 
-                        </ImageButton>
-                        <TextView
-                            android:layout_width="70dp"
-                            android:layout_height="wrap_content"
-                            android:text="Madaraka Express"
-                            android:textStyle="bold">
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_send"
+                                android:backgroundTint="@color/white">
 
-                        </TextView>
+                            </ImageButton>
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="wrap_content"
+                                android:text="Madaraka Express"
+                                android:textStyle="bold">
 
-                    </LinearLayout>
+                            </TextView>
+
+                        </LinearLayout>
                     </androidx.cardview.widget.CardView>
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -479,7 +478,7 @@
 
 
                 </HorizontalScrollView>
-<!--                services lined from here-->
+                <!--                services lined from here-->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -599,16 +598,16 @@
 
     </androidx.core.widget.NestedScrollView>
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/BottomView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            app:menu="@menu/menu"
-            android:padding="5dp">
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/BottomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu"
+        android:padding="5dp">
 
 
-        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 
 </RelativeLayout>
