@@ -7,8 +7,6 @@
     tools:context=".MainActivity">
     <!--    tools:context=".Fragments.FragmentHome-->
 
-
-
     <androidx.core.widget.NestedScrollView
         android:id="@+id/NestedView"
         android:layout_width="match_parent"
@@ -287,10 +285,10 @@
                             android:orientation="vertical">
 
                             <ImageButton
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
                                 android:backgroundTint="@color/white"
-                                android:src="@drawable/ic_send">
+                                android:src="@drawable/ic_madaraka">
 
                             </ImageButton>
 
@@ -312,10 +310,10 @@
                         android:paddingLeft="10dp">
 
                         <ImageButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="60dp"
+                            android:layout_height="50dp"
                             android:backgroundTint="@color/white"
-                            android:src="@drawable/ic_send">
+                            android:src="@drawable/ic_kcb">
 
                         </ImageButton>
 
@@ -337,10 +335,10 @@
                         android:paddingLeft="10dp">
 
                         <ImageButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="50dp"
+                            android:layout_height="60dp"
                             android:backgroundTint="@color/white"
-                            android:src="@drawable/ic_send">
+                            android:src="@drawable/ic_madaraka">
 
                         </ImageButton>
 
@@ -362,10 +360,10 @@
                         android:paddingLeft="10dp">
 
                         <ImageButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             android:backgroundTint="@color/white"
-                            android:src="@drawable/ic_send">
+                            android:src="@drawable/ic_helb">
 
                         </ImageButton>
 
@@ -510,92 +508,97 @@
                     android:layout_margin="20dp"
                     android:padding="10dp"
                     app:cardCornerRadius="10dp">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
                         android:orientation="vertical">
 
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:orientation="horizontal">
-
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:layout_marginLeft="20dp"
+                            android:orientation="horizontal">
 
-                            <ImageButton
+                            <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:backgroundTint="@color/white"
-                                android:src="@drawable/ic_send">
+                                android:orientation="vertical">
 
-                            </ImageButton>
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:backgroundTint="@color/white"
+                                    android:src="@drawable/ic_send">
 
-                            <TextView
-                                android:layout_width="70dp"
+                                </ImageButton>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="PRUDENTIAL"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="SEND AND REQUEST"
-                                android:textStyle="bold">
+                                android:layout_marginLeft="20dp"
+                                android:orientation="vertical">
 
-                            </TextView>
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:backgroundTint="@color/white"
+                                    android:src="@drawable/ic_send">
+
+                                </ImageButton>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="MYNHIF"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:backgroundTint="@color/white"
+                                    android:src="@drawable/ic_send">
+
+                                </ImageButton>
+
+                                <TextView
+                                    android:layout_width="100dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="MADARAKA EXPRESS"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+
+                            </LinearLayout>
 
 
                         </LinearLayout>
 
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <ImageButton
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:backgroundTint="@color/white"
-                                android:src="@drawable/ic_send">
-
-                            </ImageButton>
-
-                            <TextView
-                                android:layout_width="70dp"
-                                android:layout_height="wrap_content"
-                                android:text="SEND AND REQUEST"
-                                android:textStyle="bold">
-
-                            </TextView>
-
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <ImageButton
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:backgroundTint="@color/white"
-                                android:src="@drawable/ic_send">
-
-                            </ImageButton>
-
-                            <TextView
-                                android:layout_width="70dp"
-                                android:layout_height="wrap_content"
-                                android:text="SEND AND REQUEST"
-                                android:textStyle="bold">
-
-                            </TextView>
-
-
-                        </LinearLayout>
-
-
-                    </LinearLayout>
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -618,7 +621,7 @@
                                 <TextView
                                     android:layout_width="70dp"
                                     android:layout_height="wrap_content"
-                                    android:text="SEND AND REQUEST"
+                                    android:text="MOOKH"
                                     android:textStyle="bold">
 
                                 </TextView>
@@ -629,6 +632,7 @@
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
                                 android:orientation="vertical">
 
                                 <ImageButton
@@ -642,7 +646,7 @@
                                 <TextView
                                     android:layout_width="70dp"
                                     android:layout_height="wrap_content"
-                                    android:text="SEND AND REQUEST"
+                                    android:text="IABRI APP"
                                     android:textStyle="bold">
 
                                 </TextView>
@@ -653,6 +657,7 @@
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
                                 android:orientation="vertical">
 
                                 <ImageButton
@@ -666,7 +671,7 @@
                                 <TextView
                                     android:layout_width="70dp"
                                     android:layout_height="wrap_content"
-                                    android:text="SEND AND REQUEST"
+                                    android:text="KODRIS AFRICA"
                                     android:textStyle="bold">
 
                                 </TextView>
@@ -676,6 +681,7 @@
 
 
                         </LinearLayout>
+
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -696,9 +702,9 @@
                                 </ImageButton>
 
                                 <TextView
-                                    android:layout_width="70dp"
+                                    android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="SEND AND REQUEST"
+                                    android:text="MPOST APP"
                                     android:textStyle="bold">
 
                                 </TextView>
@@ -709,6 +715,7 @@
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
                                 android:orientation="vertical">
 
                                 <ImageButton
@@ -722,7 +729,7 @@
                                 <TextView
                                     android:layout_width="70dp"
                                     android:layout_height="wrap_content"
-                                    android:text="SEND AND REQUEST"
+                                    android:text="EZAWADI"
                                     android:textStyle="bold">
 
                                 </TextView>
@@ -733,6 +740,7 @@
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
                                 android:orientation="vertical">
 
                                 <ImageButton
@@ -744,9 +752,9 @@
                                 </ImageButton>
 
                                 <TextView
-                                    android:layout_width="70dp"
+                                    android:layout_width="75dp"
                                     android:layout_height="wrap_content"
-                                    android:text="SEND AND REQUEST"
+                                    android:text="MDAKTARI"
                                     android:textStyle="bold">
 
                                 </TextView>
@@ -758,14 +766,10 @@
                         </LinearLayout>
 
 
-
                     </LinearLayout>
-
-
 
 
                 </androidx.cardview.widget.CardView>
-
 
 
             </LinearLayout>
