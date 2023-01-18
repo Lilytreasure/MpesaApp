@@ -24,6 +24,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         bottomNavigationView=findViewById(R.id.BottomView)
+        //display Home fragment by default when the application loads
+        replaceFragments(FragmentHome())
+
+
+
+
 
         bottomNavigationView.setOnItemSelectedListener(){
             when(it.itemId){

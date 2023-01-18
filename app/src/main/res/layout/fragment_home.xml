@@ -39,101 +39,49 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layoutMode="clipBounds"
-                android:paddingLeft="40dp">
-                <LinearLayout
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/comparePack"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="SEND AND REQUEST"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="PAY"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+                <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <ImageButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/ic_send"
-                        android:backgroundTint="@color/white">
-
-                    </ImageButton>
-                    <TextView
-                        android:layout_width="70dp"
-                        android:layout_height="wrap_content"
-                        android:text="SEND AND REQUEST"
-                        android:textStyle="bold">
-
-                    </TextView>
-
-
-                </LinearLayout>
-                <LinearLayout
+                    android:text="WITHDRAW"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+                <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:paddingLeft="10dp">
-
-                    <ImageButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/ic_pay"
-                        android:backgroundTint="@color/white">
-
-                    </ImageButton>
-                    <TextView
-                        android:layout_width="70dp"
-                        android:layout_height="wrap_content"
-                        android:text="PAY"
-                        android:textStyle="bold">
-
-                    </TextView>
-
-
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:paddingLeft="10dp">
-
-                    <ImageButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/ic_withdraw"
-                        android:backgroundTint="@color/white">
-
-                    </ImageButton>
-                    <TextView
-                        android:layout_width="75dp"
-                        android:layout_height="wrap_content"
-                        android:text="WITHDRAW"
-                        android:textStyle="bold">
-
-                    </TextView>
-
-
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:paddingLeft="10dp">
-
-                    <ImageButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/ic_airtime"
-                        android:backgroundTint="@color/white">
-
-                    </ImageButton>
-                    <TextView
-                        android:layout_width="70dp"
-                        android:layout_height="wrap_content"
-                        android:text="AIRTIME"
-                        android:textStyle="bold">
-
-                    </TextView>
-
-
-                </LinearLayout>
-
-
+                    android:text="AIRTIME"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
 
 
             </LinearLayout>
@@ -156,14 +104,9 @@
                     android:text="SEE ALL"
                     android:textStyle="bold"
                     android:textColor="@color/teal_700"
-                    android:gravity="end"
-                    android:layout_marginLeft="50dp">
+                    android:layout_marginLeft="100dp">
 
                 </TextView>
-
-
-
-
 
             </LinearLayout>
 
@@ -284,6 +227,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical">
 
+
                             <ImageButton
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
@@ -398,76 +342,60 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <ImageButton
-                            android:layout_width="wrap_content"
+
+                            <Button
+                                android:id="@+id/btn1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.50"
+                                android:drawableLeft="@drawable/ic_send"
+                                android:backgroundTint="@color/white"
+                                android:text="Safari"
+                                android:textColor="@color/black"
+
+                               />
+
+                        <Button
+                            android:id="@+id/btn2"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:drawableLeft="@drawable/ic_send"
                             android:backgroundTint="@color/white"
-                            android:src="@drawable/ic_send">
-
-                        </ImageButton>
-
-                        <ImageButton
-                            android:layout_width="wrap_content"
+                            android:text="Safari"
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="20dp" />
+                        <Button
+                            android:id="@+id/btn3"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:drawableLeft="@drawable/ic_send"
+                            android:backgroundTint="@color/white"
+                            android:text="Safari"
+                            android:textColor="@color/black"
                             android:layout_marginLeft="20dp"
-                            android:backgroundTint="@color/white"
-                            android:src="@drawable/ic_send">
-
-                        </ImageButton>
-
-                        <ImageButton
-                            android:layout_width="wrap_content"
+                            />
+                        <Button
+                            android:id="@+id/btn4"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
+                            android:layout_weight="0.50"
+                            android:drawableLeft="@drawable/ic_send"
                             android:backgroundTint="@color/white"
-                            android:src="@drawable/ic_send">
-
-                        </ImageButton>
-
-                        <ImageButton
-                            android:layout_width="wrap_content"
+                            android:text="Safari"
+                            android:textColor="@color/black"
+                           android:layout_marginLeft="20dp" />
+                        <Button
+                            android:id="@+id/btn5"
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
+                            android:layout_weight="0.50"
+                            android:drawableLeft="@drawable/ic_send"
                             android:backgroundTint="@color/white"
-                            android:src="@drawable/ic_send">
-
-                        </ImageButton>
-
-                        <ImageButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
-                            android:backgroundTint="@color/white"
-                            android:src="@drawable/ic_send">
-
-                        </ImageButton>
-
-                        <ImageButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
-                            android:backgroundTint="@color/white"
-                            android:src="@drawable/ic_send">
-
-                        </ImageButton>
-
-                        <ImageButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
-                            android:backgroundTint="@color/white"
-                            android:src="@drawable/ic_send">
-
-                        </ImageButton>
-
-                        <ImageButton
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
-                            android:backgroundTint="@color/white"
-                            android:src="@drawable/ic_send">
-
-                        </ImageButton>
+                            android:text="Safari"
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="20dp"/>
 
 
                     </LinearLayout>
@@ -521,80 +449,37 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
                             android:orientation="horizontal">
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
+                            <Button
+                                android:layout_width="100dp"
                                 android:layout_height="wrap_content"
-                                android:orientation="vertical">
-
-                                <ImageButton
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:backgroundTint="@color/white"
-                                    android:src="@drawable/ic_send">
-
-                                </ImageButton>
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="PRUDENTIAL"
-                                    android:textStyle="bold">
-
-                                </TextView>
-
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
+                                android:text="PRUDENTIAL"
+                                android:textSize="10sp"
+                                android:textColor="@color/black"
+                                android:drawableTop="@drawable/ic_send"
+                                android:backgroundTint="@color/white"
+                                style="@style/Widget.AppCompat.Button.Borderless"
+                                />
+                            <Button
+                                android:layout_width="100dp"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
-                                android:orientation="vertical">
+                                android:text="MYNHIF"
+                                android:textSize="10sp"
+                                android:textColor="@color/black"
+                                android:drawableTop="@drawable/ic_send"
+                                android:backgroundTint="@color/white"
+                                style="@style/Widget.AppCompat.Button.Borderless"
+                                />
 
-                                <ImageButton
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:backgroundTint="@color/white"
-                                    android:src="@drawable/ic_send">
-
-                                </ImageButton>
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="MYNHIF"
-                                    android:textStyle="bold">
-
-                                </TextView>
-
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
+                            <Button
+                                android:layout_width="100dp"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
-                                android:orientation="vertical">
-
-                                <ImageButton
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:backgroundTint="@color/white"
-                                    android:src="@drawable/ic_send">
-
-                                </ImageButton>
-
-                                <TextView
-                                    android:layout_width="100dp"
-                                    android:layout_height="wrap_content"
-                                    android:text="MADARAKA EXPRESS"
-                                    android:textStyle="bold">
-
-                                </TextView>
-
-
-                            </LinearLayout>
+                                android:text="MADARAKA EXPRESS"
+                                android:textSize="10sp"
+                                android:textColor="@color/black"
+                                android:drawableTop="@drawable/ic_send"
+                                android:backgroundTint="@color/white"
+                                style="@style/Widget.AppCompat.Button.Borderless"
+                                />
 
 
                         </LinearLayout>
@@ -604,166 +489,83 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
                             android:orientation="horizontal">
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
+                            <Button
+                                android:layout_width="100dp"
                                 android:layout_height="wrap_content"
-                                android:orientation="vertical">
-
-                                <ImageButton
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:backgroundTint="@color/white"
-                                    android:src="@drawable/ic_send">
-
-                                </ImageButton>
-
-                                <TextView
-                                    android:layout_width="70dp"
-                                    android:layout_height="wrap_content"
-                                    android:text="MOOKH"
-                                    android:textStyle="bold">
-
-                                </TextView>
-
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
+                                android:text="MOOKH"
+                                android:textSize="10sp"
+                                android:textColor="@color/black"
+                                android:drawableTop="@drawable/ic_send"
+                                android:backgroundTint="@color/white"
+                                style="@style/Widget.AppCompat.Button.Borderless"
+                                />
+                            <Button
+                                android:layout_width="100dp"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
-                                android:orientation="vertical">
-
-                                <ImageButton
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:backgroundTint="@color/white"
-                                    android:src="@drawable/ic_send">
-
-                                </ImageButton>
-
-                                <TextView
-                                    android:layout_width="70dp"
-                                    android:layout_height="wrap_content"
-                                    android:text="IABRI APP"
-                                    android:textStyle="bold">
-
-                                </TextView>
+                                android:text="IABRI APP"
+                                android:textSize="10sp"
+                                android:textColor="@color/black"
+                                android:drawableTop="@drawable/ic_send"
+                                android:backgroundTint="@color/white"
+                                style="@style/Widget.AppCompat.Button.Borderless"
+                                />
 
 
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
+                            <Button
+                                android:layout_width="100dp"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
-                                android:orientation="vertical">
-
-                                <ImageButton
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:backgroundTint="@color/white"
-                                    android:src="@drawable/ic_send">
-
-                                </ImageButton>
-
-                                <TextView
-                                    android:layout_width="70dp"
-                                    android:layout_height="wrap_content"
-                                    android:text="KODRIS AFRICA"
-                                    android:textStyle="bold">
-
-                                </TextView>
-
-
-                            </LinearLayout>
+                                android:text="KODRIS AFRICA"
+                                android:textSize="10sp"
+                                android:textColor="@color/black"
+                                android:drawableTop="@drawable/ic_send"
+                                android:backgroundTint="@color/white"
+                                style="@style/Widget.AppCompat.Button.Borderless"
+                                />
 
 
                         </LinearLayout>
-
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
                             android:orientation="horizontal">
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
+                            <Button
+                                android:layout_width="100dp"
                                 android:layout_height="wrap_content"
-                                android:orientation="vertical">
-
-                                <ImageButton
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:backgroundTint="@color/white"
-                                    android:src="@drawable/ic_send">
-
-                                </ImageButton>
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="MPOST APP"
-                                    android:textStyle="bold">
-
-                                </TextView>
-
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
+                                android:text="MPOST APP"
+                                android:textSize="10sp"
+                                android:textColor="@color/black"
+                                android:drawableTop="@drawable/ic_send"
+                                android:backgroundTint="@color/white"
+                                style="@style/Widget.AppCompat.Button.Borderless"
+                                />
+                            <Button
+                                android:layout_width="100dp"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
-                                android:orientation="vertical">
-
-                                <ImageButton
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:backgroundTint="@color/white"
-                                    android:src="@drawable/ic_send">
-
-                                </ImageButton>
-
-                                <TextView
-                                    android:layout_width="70dp"
-                                    android:layout_height="wrap_content"
-                                    android:text="EZAWADI"
-                                    android:textStyle="bold">
-
-                                </TextView>
+                                android:text="EZAWADI"
+                                android:textSize="10sp"
+                                android:textColor="@color/black"
+                                android:drawableTop="@drawable/ic_send"
+                                android:backgroundTint="@color/white"
+                                style="@style/Widget.AppCompat.Button.Borderless"
+                                />
 
 
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
+                            <Button
+                                android:layout_width="100dp"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
-                                android:orientation="vertical">
-
-                                <ImageButton
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:backgroundTint="@color/white"
-                                    android:src="@drawable/ic_send">
-
-                                </ImageButton>
-
-                                <TextView
-                                    android:layout_width="75dp"
-                                    android:layout_height="wrap_content"
-                                    android:text="MDAKTARI"
-                                    android:textStyle="bold">
-
-                                </TextView>
-
-
-                            </LinearLayout>
+                                android:text="MDAKTARI"
+                                android:textSize="10sp"
+                                android:textColor="@color/black"
+                                android:drawableTop="@drawable/ic_send"
+                                android:backgroundTint="@color/white"
+                                style="@style/Widget.AppCompat.Button.Borderless"
+                                />
 
 
                         </LinearLayout>
+
+
 
 
                     </LinearLayout>
