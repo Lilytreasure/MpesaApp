@@ -6,44 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 <!--    tools:context=".Fragments.FragmentHome-->
+<!--    <FrameLayout-->
+<!--        android:id="@+id/mainView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/Topbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/white" >
-        <com.google.android.material.appbar.MaterialToolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            app:layout_scrollFlags="scroll|enterAlways"
-            app:titleTextColor="@color/black">
-            <ImageButton
-                android:id="@+id/imgHome"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_services">
-
-            </ImageButton>
+<!--    </FrameLayout>-->
 
 
-        </com.google.android.material.appbar.MaterialToolbar>
 
-    </com.google.android.material.appbar.AppBarLayout>
-    <androidx.core.widget.NestedScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/Topbar"
-        android:layout_above="@id/BottomView">
+
         <FrameLayout
             android:id="@+id/mainView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_above="@id/BottomView">
 
         </FrameLayout>
 
 
-    </androidx.core.widget.NestedScrollView>
+
+
 
 
 

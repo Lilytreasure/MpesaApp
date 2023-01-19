@@ -1,11 +1,16 @@
 package com.example.mpesaui.Fragments
 
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
+import android.view.*
+import android.widget.EditText
+import android.widget.TextView
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.widget.Toast
+import androidx.appcompat.widget.Toolbar
 import com.example.mpesaui.R
+import com.google.android.material.appbar.MaterialToolbar
 
 
 /**
@@ -17,32 +22,39 @@ class FragmentHome : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
+    private lateinit var toolbar: MaterialToolbar
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
 
-        }
-    }
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+       val view  =inflater.inflate(R.layout.fragment_home, container, false)
+
+       toolbar=view.findViewById(R.id.toolbar)
+        toolbar.inflateMenu(R.menu.tabheader)
+
+        //The proper way to cast menu items on the toolbar to access items via id
+
+        toolbar.setOnMenuItemClickListener {
+            onOptionsItemSelected(it)
+        }
+
+        return  view;
     }
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment FragmentHome.
-         */
-        // TODO: Rename and change types and number of parameters
-
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.ic1 -> {
+               Toast.makeText(context,"Hello user",Toast.LENGTH_LONG)
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
+
+
 }

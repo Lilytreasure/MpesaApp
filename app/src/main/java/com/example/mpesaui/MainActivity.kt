@@ -1,10 +1,19 @@
 package com.example.mpesaui
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toast
+import android.widget.Toolbar
 import androidx.core.widget.NestedScrollView
 import androidx.fragment.app.Fragment
+import com.example.mpesaui.Fragments.FragmentGrow
 import com.example.mpesaui.Fragments.FragmentHome
+import com.example.mpesaui.Fragments.FragmentServices
+import com.example.mpesaui.Fragments.FragmentTransact
+import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -14,6 +23,8 @@ class MainActivity : AppCompatActivity() {
     // The application would perform as the actual Mpesa app when integrated with the MPesa API
     private  lateinit var  mainView: NestedScrollView
     private lateinit var  bottomNavigationView: BottomNavigationView
+
+
 
 
 
@@ -28,15 +39,12 @@ class MainActivity : AppCompatActivity() {
         replaceFragments(FragmentHome())
 
 
-
-
-
         bottomNavigationView.setOnItemSelectedListener(){
             when(it.itemId){
                 R.id.hmBtn->replaceFragments(FragmentHome())
-                R.id.GrowBtn->replaceFragments(FragmentHome())
-                R.id.ServiceBtn->replaceFragments(FragmentHome())
-                R.id.Trbtn->replaceFragments(FragmentHome())
+                R.id.GrowBtn->replaceFragments(FragmentGrow())
+                R.id.ServiceBtn->replaceFragments(FragmentServices())
+                R.id.Trbtn->replaceFragments(FragmentTransact())
             }
 
 
@@ -47,6 +55,7 @@ class MainActivity : AppCompatActivity() {
         //main OnCreate method ends here
     }
 
+
     //replace fragments function
     private fun replaceFragments(fragment: Fragment){
         val fragmentManager=supportFragmentManager
@@ -56,12 +65,5 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-
-
-
-
-
-
-
 
 }
