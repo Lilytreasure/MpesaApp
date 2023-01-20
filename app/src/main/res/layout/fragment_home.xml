@@ -60,7 +60,7 @@
                 android:layout_gravity="center_horizontal">
 
                 <Button
-                    android:id="@+id/comparePack"
+                    android:id="@+id/btnSend"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:text="SEND AND REQUEST"
@@ -71,6 +71,7 @@
                     style="@style/Widget.AppCompat.Button.Borderless"
                     />
                 <Button
+                    android:id="@+id/btnPay"
                     android:layout_width="70dp"
                     android:layout_height="wrap_content"
                     android:text="PAY"
@@ -81,6 +82,7 @@
                     style="@style/Widget.AppCompat.Button.Borderless"
                     />
                 <Button
+                    android:id="@+id/btnWithdraw"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="WITHDRAW"
@@ -91,6 +93,7 @@
                     style="@style/Widget.AppCompat.Button.Borderless"
                     />
                 <Button
+                    android:id="@+id/btnAirtime"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="AIRTIME"
@@ -121,7 +124,7 @@
                     android:layout_height="wrap_content"
                     android:text="SEE ALL"
                     android:textStyle="bold"
-                    android:textColor="@color/teal_700"
+                    android:textColor="@color/green"
                     android:layout_alignParentEnd="true"
                     android:layout_marginEnd="30dp">
 
@@ -444,7 +447,7 @@
                         android:textStyle="bold"
                         android:layout_alignParentEnd="true"
                         android:layout_marginEnd="30dp"
-                        android:textColor="@color/teal_200">
+                        android:textColor="@color/green">
 
                     </TextView>
 

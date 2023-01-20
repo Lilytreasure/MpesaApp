@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/darker_grey">
+    <LinearLayout
+        android:background="@drawable/sheet_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEND AND REQUEST"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:drawableLeft="@drawable/ic_send"
+            android:backgroundTint="@color/white"
+            android:text="SEND MONEY"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+
+            />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_send"
+            android:backgroundTint="@color/white"
+            android:text="REQUEST MONEY"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+
+            />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_send"
+            android:backgroundTint="@color/white"
+            android:text="GLOBAL"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            />
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_send"
+            android:backgroundTint="@color/white"
+            android:text="ANOTHER NETWORK"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+
+            />
+    </LinearLayout>
+</LinearLayout>
