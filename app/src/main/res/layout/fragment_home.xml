@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:fitsSystemWindows="true">
     <!--    tools:context=".Fragments.FragmentHome-->
 
     <com.google.android.material.appbar.MaterialToolbar
@@ -16,7 +17,8 @@
             android:id="@+id/imgHome"
             android:layout_width="40dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_person">
+            android:src="@drawable/ic_person"
+            android:background="@drawable/round_bg">
 
         </ImageButton>
 
@@ -367,55 +369,50 @@
 
                             <Button
                                 android:id="@+id/btn1"
-                                android:layout_width="0dp"
+                                android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="0.50"
                                 android:drawableLeft="@drawable/ic_send"
                                 android:backgroundTint="@color/white"
-                                android:text="Safari"
+                                android:text="Education"
                                 android:textColor="@color/black"
 
                                />
 
                         <Button
                             android:id="@+id/btn2"
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_weight="0.50"
                             android:drawableLeft="@drawable/ic_send"
                             android:backgroundTint="@color/white"
-                            android:text="Safari"
+                            android:text="ENTERTAINMENT"
                             android:textColor="@color/black"
                             android:layout_marginLeft="20dp" />
                         <Button
                             android:id="@+id/btn3"
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_weight="0.50"
                             android:drawableLeft="@drawable/ic_send"
                             android:backgroundTint="@color/white"
-                            android:text="Safari"
+                            android:text="EVENTS"
                             android:textColor="@color/black"
                             android:layout_marginLeft="20dp"
                             />
                         <Button
                             android:id="@+id/btn4"
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_weight="0.50"
                             android:drawableLeft="@drawable/ic_send"
                             android:backgroundTint="@color/white"
-                            android:text="Safari"
+                            android:text="FINANCIAL SERVICES"
                             android:textColor="@color/black"
                            android:layout_marginLeft="20dp" />
                         <Button
                             android:id="@+id/btn5"
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_weight="0.50"
                             android:drawableLeft="@drawable/ic_send"
                             android:backgroundTint="@color/white"
-                            android:text="Safari"
+                            android:text="GOVERNMENT SERVICES"
                             android:textColor="@color/black"
                             android:layout_marginLeft="20dp"/>
 

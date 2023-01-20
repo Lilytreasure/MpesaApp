@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_send"
             android:backgroundTint="@color/white"
-            android:text="BUF=Y FOR OTHER NUMBER"
+            android:text="BUY FOR OTHER NUMBER"
             android:textColor="@color/black"
             android:layout_marginTop="15dp"
             style="@style/Widget.AppCompat.Button.Borderless"

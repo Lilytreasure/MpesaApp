@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:fitsSystemWindows="true">
 <!--    tools:context=".Fragments.FragmentHome-->
 <!--    <FrameLayout-->
 <!--        android:id="@+id/mainView"-->
@@ -12,8 +13,6 @@
 <!--        android:layout_height="match_parent">-->
 
 <!--    </FrameLayout>-->
-
-
 
 
         <FrameLayout
@@ -25,18 +24,15 @@
         </FrameLayout>
 
 
-
-
-
-
-
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/BottomView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             app:menu="@menu/menu"
-            android:padding="5dp">
+            android:padding="5dp"
+            app:labelVisibilityMode="labeled"
+            android:theme="@style/BottomNavigationTheme">
 
 
         </com.google.android.material.bottomnavigation.BottomNavigationView>
