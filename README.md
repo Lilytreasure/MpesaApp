@@ -6,4 +6,4 @@ I will be posting a separate project containing an Api ---NOte-- its not the act
 
 # i will be adding more functionalities such as custom fonts and  update the drawables
 
-# i am working on an API to integrate on the application follow for more updates
+# i am working on an API to integrate in the application follow for more updates
