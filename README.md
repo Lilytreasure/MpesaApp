@@ -10,6 +10,14 @@ I will be posting a separate project containing an Api ---NOte-- its not the act
 
 
 
+
+
+
+
+https://user-images.githubusercontent.com/78819932/213849100-663e5530-e4d2-48d4-b3c2-752881f5865e.mp4
+
+
+
  <table align="center">
   <tr>
     <td><img src="https://user-images.githubusercontent.com/78819932/213847096-0a63138b-bf2a-47ea-a5cc-eb924092ea12.png" alt="Home page" style="width:270px;height:500px;"></td>
