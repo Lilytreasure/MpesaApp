@@ -4,19 +4,19 @@
 
 
     <item
-        android:icon="@drawable/ic_send"
+        android:icon="@drawable/ic_notification"
         android:title="mesageicon"
         app:showAsAction="always"
         android:id="@+id/ic1"/>
     <item
-        android:icon="@drawable/ic_send"
+        android:icon="@drawable/ic_time"
         app:showAsAction="always"
         android:title="Saved News"
         android:id="@+id/ic2"/>
 
 
     <item
-        android:icon="@drawable/ic_send"
+        android:icon="@drawable/ic_qrcode"
         app:showAsAction="always"
         android:title="Saved News"
         android:id="@+id/ic3"/>

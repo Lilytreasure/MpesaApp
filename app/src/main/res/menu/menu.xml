@@ -18,7 +18,7 @@
 
     <item android:title="Grow"
         android:id="@+id/GrowBtn"
-        android:icon="@drawable/ic_grow">
+        android:icon="@drawable/grow">
 
     </item>
 

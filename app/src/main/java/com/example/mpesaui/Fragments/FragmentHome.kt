@@ -106,7 +106,7 @@ class FragmentHome : Fragment() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.ic1 -> {
-               Toast.makeText(requireContext(),"Hello user",Toast.LENGTH_LONG)
+               Toast.makeText(context,"Hello user",Toast.LENGTH_LONG)
                 true
             }
             else -> super.onOptionsItemSelected(item)

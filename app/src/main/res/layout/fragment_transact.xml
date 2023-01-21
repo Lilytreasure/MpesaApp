@@ -1,20 +1,427 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="This is  the transact fragment"
-        android:textSize="30sp">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="TRANSACT"
+        app:titleCentered="true">
 
-    </TextView>
+    </com.google.android.material.appbar.MaterialToolbar>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FREQUENTS"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp">
+
+            </TextView>
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+                <LinearLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <Button
+
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="KPLC PREPAID"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:drawableTop="@drawable/ic_person"
+                            android:backgroundTint="@color/white"
+                            style="@style/Widget.AppCompat.Button.Borderless"
+                            android:layout_marginTop="15dp"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Buy goods"
+                            android:textSize="15sp"
+                            android:layout_gravity="center">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <Button
+
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="KPLC PREPAID"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:drawableTop="@drawable/ic_person"
+                            android:backgroundTint="@color/white"
+                            style="@style/Widget.AppCompat.Button.Borderless"
+                            android:layout_marginTop="15dp"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Buy goods"
+                            android:textSize="15sp"
+                            android:layout_gravity="center">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <Button
+
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="KPLC PREPAID"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:drawableTop="@drawable/ic_person"
+                            android:backgroundTint="@color/white"
+                            style="@style/Widget.AppCompat.Button.Borderless"
+                            android:layout_marginTop="15dp"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Buy goods"
+                            android:textSize="15sp"
+                            android:layout_gravity="center">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <Button
+
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="KPLC PREPAID"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:drawableTop="@drawable/ic_person"
+                            android:backgroundTint="@color/white"
+                            style="@style/Widget.AppCompat.Button.Borderless"
+                            android:layout_marginTop="15dp"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Buy goods"
+                            android:textSize="15sp"
+                            android:layout_gravity="center">
+
+                        </TextView>
+
+                    </LinearLayout>
 
 
 
+                </LinearLayout>
+
+            </HorizontalScrollView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FINANCIAL SERVICES"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FULIZA"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KCB M-PESA"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="M-SHWARI"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
 
 
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WALLETS"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp">
+
+            </TextView>
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="POCHI LA  BIASHARA"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:drawableTop="@drawable/ic_send"
+                android:backgroundTint="@color/white"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEND AND REQUEST"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SEND MONEY"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="REQUEST MONEY"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ANOTHER NETWORK"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
 
 
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SEND TO MANY"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GLOBAL"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
 
-</androidx.appcompat.widget.LinearLayoutCompat>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PAY"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PAY BILL"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BUY GOODS"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="POCHI LA BIASHARA"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WITHDRAW"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WITHDRAW AT AGENT"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WITHDRAW AT ATM"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AIRTIME"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AIRTIME FOR MY NUMBER"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AIRTIME FOR OTHER NUMBER"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:drawableTop="@drawable/ic_send"
+                    android:backgroundTint="@color/white"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

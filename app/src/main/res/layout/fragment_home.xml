@@ -35,26 +35,32 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-            <TextView
-                android:id="@+id/texttest"
-                android:layout_gravity="center_horizontal"
-                android:textAlignment="center"
-                android:paddingTop="5dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Balance !"
-                android:textSize="20sp">
 
-            </TextView>
-            <TextView
-                android:textAlignment="center"
-                android:paddingTop="5dp"
-                android:layout_width="match_parent"
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="KSH. 10000"
-                android:textSize="20sp">
+                app:passwordToggleEnabled="true"
+                android:layout_gravity="center"
+                app:boxBackgroundMode="none"
+                style="@style/Widget.AppCompat.Button.Borderless">
 
-            </TextView>
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KSH 10,000.00"
+                    android:focusable="false"
+                    android:maxLength="30"
+                    android:maxLines="1"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:hint="BALANCE !"
+                    android:textColorHint="@color/black"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -79,7 +85,7 @@
                     android:text="PAY"
                     android:textSize="11sp"
                     android:textColor="@color/black"
-                    android:drawableTop="@drawable/ic_send"
+                    android:drawableTop="@drawable/payicon"
                     android:backgroundTint="@color/white"
                     style="@style/Widget.AppCompat.Button.Borderless"
                     />
@@ -90,7 +96,7 @@
                     android:text="WITHDRAW"
                     android:textSize="11sp"
                     android:textColor="@color/black"
-                    android:drawableTop="@drawable/ic_send"
+                    android:drawableTop="@drawable/ic_withdraws"
                     android:backgroundTint="@color/white"
                     style="@style/Widget.AppCompat.Button.Borderless"
                     />
@@ -101,7 +107,7 @@
                     android:text="AIRTIME"
                     android:textSize="11sp"
                     android:textColor="@color/black"
-                    android:drawableTop="@drawable/ic_send"
+                    android:drawableTop="@drawable/ic_airtime1"
                     android:backgroundTint="@color/white"
                     style="@style/Widget.AppCompat.Button.Borderless"
                     />
@@ -144,7 +150,7 @@
                 <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_send"
+                    android:src="@drawable/ic_person"
                     android:backgroundTint="@color/white">
 
                 </ImageButton>
