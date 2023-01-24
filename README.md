@@ -8,6 +8,8 @@ I will be posting a separate project containing an Api ---NOte-- its not the act
 
 # i am working on an API to integrate in the application follow for more updates
 
+# for API integration some Ui elements  will be stripped to add relevant views such as Recycler views or Viewpagers
+
 
 
 
