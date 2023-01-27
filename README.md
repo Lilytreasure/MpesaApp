@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/78819932/213849100-663e5530-e4d2-48d4-
 
 
 
- <table align="center">
+ <table>
   <tr>
     <td><img src="https://user-images.githubusercontent.com/78819932/213847096-0a63138b-bf2a-47ea-a5cc-eb924092ea12.png" alt="Home page" style="width:270px;height:500px;"></td>
     <td><img src="https://user-images.githubusercontent.com/78819932/213847106-0609a911-4c50-490c-b223-a54a6defddb0.png" alt="pay" style="width:270px;height:500px;"></td>
